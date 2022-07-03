@@ -1,0 +1,23 @@
+_id: greq_8f230b3e830e4be5ab6e15f3ec415917
+type: GrpcRequest
+parentId: fld_0e211c1ccecc45abb43fba5992586110
+modified: 1656849613320
+created: 1656849524933
+url: 127.0.0.1:30043
+name: update
+description: ""
+protoFileId: pf_f485425775b845e990cd653625fbdcae
+protoMethodName: /Gerenciar/update
+metadata: []
+body:
+  text: |-
+    {
+    	"_id": "62c17fbe6b5195e11007c28e",
+    	"nome_banco": "Santander",
+    	"tipo_conta": "Pix",
+    	"nome_titular": "Lucileide",
+    	"limite_cartao": "405000",
+    	"id_cliente": "25"
+    }
+metaSortKey: -1656849319780
+isPrivate: false

@@ -1,0 +1,38 @@
+_id: pf_f485425775b845e990cd653625fbdcae
+type: ProtoFile
+parentId: wrk_5fe5f8eb3bac4022b264e1bbe21bb4ab
+modified: 1656849308478
+created: 1656849308478
+name: info-financeiras.proto
+protoText: |-
+  syntax="proto3";
+
+  service Gerenciar{
+      rpc get(Empty) returns (ListarInfoFinanceiras){}
+      rpc getByIdCliente(InfoFinanceirasPorId) returns(ListarInfoFinanceiras){}
+      rpc insert(InfoFinanceiras) returns(InfoFinanceiras){}
+      rpc update(InfoFinanceiras) returns(InfoFinanceiras){}
+      rpc delete(InfoFinanceirasPor_Id) returns(Empty){}
+  }
+  message Empty{}
+
+  message InfoFinanceiras{
+      string _id = 1;
+      string nome_banco = 2;
+      string tipo_conta = 3;
+      string nome_titular = 4;
+      string limite_cartao = 5;
+      string id_cliente = 6;
+  }
+
+  message ListarInfoFinanceiras{
+      repeated InfoFinanceiras InfoFinanceiras = 1;
+  }
+
+  message InfoFinanceirasPorId{
+      string id_cliente=1;
+  }
+
+  message InfoFinanceirasPor_Id{
+      string _id=1;
+  }

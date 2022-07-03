@@ -1,0 +1,22 @@
+_id: greq_43a5a93a4f9c48d58946238b9ab3562f
+type: GrpcRequest
+parentId: fld_0e211c1ccecc45abb43fba5992586110
+modified: 1656849584615
+created: 1656849470120
+url: 127.0.0.1:30043
+name: insert
+description: ""
+protoFileId: pf_f485425775b845e990cd653625fbdcae
+protoMethodName: /Gerenciar/insert
+metadata: []
+body:
+  text: |-
+    {
+    	"nome_banco": "Bradesco",
+    	"tipo_conta": "Pix",
+    	"nome_titular": "Lucileide",
+    	"limite_cartao": "405000",
+    	"id_cliente": "25"
+    }
+metaSortKey: -1656849319792.5
+isPrivate: false

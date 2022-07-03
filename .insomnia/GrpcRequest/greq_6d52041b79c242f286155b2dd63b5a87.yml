@@ -1,0 +1,18 @@
+_id: greq_6d52041b79c242f286155b2dd63b5a87
+type: GrpcRequest
+parentId: fld_0e211c1ccecc45abb43fba5992586110
+modified: 1656849629386
+created: 1656849434269
+url: 127.0.0.1:30043
+name: getByIdCliente
+description: ""
+protoFileId: pf_f485425775b845e990cd653625fbdcae
+protoMethodName: /Gerenciar/getByIdCliente
+metadata: []
+body:
+  text: |-
+    {
+    	"id_cliente": "25"
+    }
+metaSortKey: -1656849319805
+isPrivate: false
