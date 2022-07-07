@@ -1,0 +1,30 @@
+_id: req_43a9e59060684bbfb78a903cabc4c9ec
+type: Request
+parentId: fld_eeef88046e77488b8fef3566b1b313f2
+modified: 1657152799593
+created: 1657152765996
+url: http://localhost:3000/usuarios/login
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nomeusuario": "Samuel",
+    	"senha": "123456"
+    }	
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_74108b785d46431b9f707430ef5097ce
+authentication: {}
+metaSortKey: -1657152765996
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
