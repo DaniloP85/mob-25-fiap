@@ -1,0 +1,21 @@
+_id: req_1b5d3854a5cf4210b8ee981b315600f2
+type: Request
+parentId: fld_b1daec0c61a6492ba3324deb787f5ca7
+modified: 1657153386975
+created: 1657153346603
+url: http://localhost:3000/clientes
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1657153346603
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
